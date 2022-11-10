@@ -21,37 +21,39 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 //VERSION 2 JSX
 // const p1 = <p id="firstPara">This is paragraph 1</p>;
-// const p2 = <p>This is paragraph 2</p>;
-// const myList = <ul>
-//   <li>item 1</li>
-//   <li>item 2</li>
-//   <li>item 3</li>
-// </ul>;
-// const mainDiv = <div>
-//   {p1}{p2}{myList}
+// // const p2 = <p>This is paragraph 2</p>;
+// // const myList = <ul>
+// //   <li>item 1</li>
+// //   <li>item 2</li>
+// //   <li>item 3</li>
+// // </ul>;
+// // const mainDiv = <div>
+// //   {p1}{p2}{myList}
+// // </div>
+// // root.render(mainDiv);
+
+// //VERSION 3
+// const myName = "Vanessa";
+// const mainDiv = <div id="main">
+//   <p>This is the first paragraph. Hello {myName}</p>
+//   <p>This is the second paragraph</p>
+//   <ul>
+//     <li>First item</li>
+//     <li>Second item</li>
+//     <li>Third item</li>
+//   </ul>
+//   <label htmlFor="firstName">First Name Label</label>
+//   <input id="firstName" type="text" required="true" />
+//   <p>The total of 7 + 9 is {7 + 9}</p>
 // </div>
 // root.render(mainDiv);
 
-//VERSION 3
-const myName = "Vanessa";
-const mainDiv = <div id="main">
-  <p>This is the first paragraph. Hello {myName}</p>
-  <p>This is the second paragraph</p>
-  <ul>
-    <li>First item</li>
-    <li>Second item</li>
-    <li>Third item</li>
-  </ul>
-  <p>The total of 7 + 9 is {7 + 9}</p>
-</div>
-root.render(mainDiv);
-
 //THIS WAS THE ORIGINIAL CODE WHEN FILE WAS DOWNLOADED FROM CMD
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
